@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-   git 'https://github.com/marwenmselmi/testJenkins.git'
+   git origin'https://github.com/marwenmselmi/testJenkins.git'
     }
     
    stage('Compile-Package'){
